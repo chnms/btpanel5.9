@@ -38,7 +38,7 @@ SSH开启与关闭及SSH端口更改
 计划任务（定期备份、日志切割、shell脚本）
 软件管理（一键安装、卸载、版本切换）
 
-升级到5.9.2pro
+升级到5.9.2专业版
 下载安装:
 ``` bash
 wget -N --no-check-certificate https://raw.githubusercontent.com/chnms/btpanel/blob/master/update_pro.sh && bash update_pro.sh
