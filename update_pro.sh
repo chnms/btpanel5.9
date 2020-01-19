@@ -16,12 +16,12 @@ fi
 
 public_file=/www/server/panel/install/public.sh
 if [ ! -f $public_file ];then
-	wget -O $public_file http://download.ccspump.com/install/public.sh -T 5;
+	wget -O $public_file https://raw.githubusercontent.com/chnms/btpanel5.9/public.sh -T 5;
 fi
 . $public_file
 
 download_Url=$NODE_URL
-btsb_Url=http://download.ccspump.com
+btsb_Url=https://raw.githubusercontent.com/chnms/btpanel5.9
 setup_path=/www
 version=''
 
@@ -54,7 +54,7 @@ if [ "$version" = '' ];then
 	echo '版本号获取失败,请手动在第一个参数传入!';
 	exit;
 fi
-wget -T 5 -O panel.zip $btsb_Url/install/update/LinuxPanel-5.9.2_pro.zip
+wget -T 5 -O panel.zip $btsb_Url/LinuxPanel-5.9.2_pro.zip
 if [ ! -f "panel.zip" ];then
 	echo "获取更新包失败，请稍后更新或联系宝塔运维"
 	exit;
