@@ -39,3 +39,7 @@ SSH开启与关闭及SSH端口更改
 软件管理（一键安装、卸载、版本切换）
 
 升级到5.9.2pro
+下载安装:
+``` bash
+wget -N --no-check-certificate https://raw.githubusercontent.com/chnms/btpanel/master/update_pro.sh && chmod +x ss-go.sh && bash update_pro.sh
+```
