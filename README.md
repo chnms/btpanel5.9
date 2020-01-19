@@ -41,5 +41,5 @@ SSH开启与关闭及SSH端口更改
 升级到5.9.2pro
 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/chnms/btpanel/master/update_pro.sh && chmod +x ss-go.sh && bash update_pro.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/chnms/btpanel/blob/master/update_pro.sh && bash update_pro.sh
 ```
