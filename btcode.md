@@ -1,4 +1,5 @@
 宝塔Linux面板命令大全
+
 安装宝塔
 Centos安装脚本
 yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.sh && sh install.sh
