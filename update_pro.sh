@@ -16,12 +16,12 @@ fi
 
 public_file=/www/server/panel/install/public.sh
 if [ ! -f $public_file ];then
-	wget -O $public_file https://raw.githubusercontent.com/chnms/btpanel/master/public.sh -T 5;
+	wget -O $public_file https://raw.githubusercontent.com/chnms/btpanel5.9/master/public.sh -T 5;
 fi
 . $public_file
 
 download_Url=$NODE_URL
-btsb_Url=https://raw.githubusercontent.com/chnms/btpanel/master
+btsb_Url=https://raw.githubusercontent.com/chnms/btpanel5.9/master
 setup_path=/www
 version=''
 
