@@ -38,9 +38,6 @@ yum install -y wget && wget -O install.sh http://103.224.251.67:5880/install/ins
 yum install -y wget && wget -O install.sh http://128.1.164.196:5880/install/install.sh && sh install.sh
 ```
 
-若点击更新后没生效，请尝试重启面板服务：
-service bt restart
-
 面板特色功能：
 
 一键配置服务器环境（LAMP/LNMP）  
