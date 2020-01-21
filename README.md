@@ -54,7 +54,23 @@ SSH开启与关闭及SSH端口更改
 计划任务（定期备份、日志切割、shell脚本）  
 软件管理（一键安装、卸载、版本切换）  
 
-升级到5.9.2专业版  
+宝塔Linux面板5.9.2专业版  
+Centos安装命令：
+``` bash
+yum install -y wget && wget -O install.sh https://raw.githubusercontent.com/chnms/btpanel5.9/master/install.sh && sh install.sh
+```
+Ubuntu/Deepin安装命令：
+``` bash
+wget -O install.sh https://raw.githubusercontent.com/chnms/btpanel5.9/master/install-ubuntu.sh && sudo bash install.sh
+```
+Debian安装命令：
+``` bash
+wget -O install.sh https://raw.githubusercontent.com/chnms/btpanel5.9/master/install-ubuntu.sh && bash install.sh
+```
+Fedora安装命令:
+``` bash
+wget -O install.sh https://raw.githubusercontent.com/chnms/btpanel5.9/master/install.sh && bash install.sh
+官方版升级到5.9.2专业版  
 下载安装:  
 ``` bash
 wget -N --no-check-certificate https://raw.githubusercontent.com/chnms/btpanel5.9/master/update_pro.sh && bash update_pro.sh
