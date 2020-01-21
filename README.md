@@ -70,6 +70,8 @@ wget -O install.sh https://raw.githubusercontent.com/chnms/btpanel5.9/master/ins
 Fedora安装命令:
 ``` bash
 wget -O install.sh https://raw.githubusercontent.com/chnms/btpanel5.9/master/install.sh && bash install.sh
+```
+
 官方版升级到5.9.2专业版  
 下载安装:  
 ``` bash
